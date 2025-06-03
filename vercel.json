@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/scheduler.py": { "runtime": "python3.11" }
+  },
+  "cron": [
+    {
+      "path": "api/scheduler",
+      "schedule": "*/15 * * * *"
+    }
+  ]
+}

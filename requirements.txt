@@ -1,0 +1,15 @@
+# ─── core runtime ─────────────────────────────────────────
+resend==0.6.0
+email_validator== 2.2.0
+pymongo[srv]
+pydantic==2.2.0
+python-dotenv==1.0.1
+requests>=2.31.0,<2.32.0
+      # ✅ compatible with resend
+
+# ─── dev / QA / formatting ────────────────────────────────
+black==24.3.0
+ruff==0.4.4
+isort==5.13.2
+pre-commit==3.7.0
+pytest==8.1.1
